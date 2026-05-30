@@ -109,19 +109,19 @@
 <body>
     <main class="container">
         <section class="hero">
-            <span class="badge">Projeto publicado com API Laravel</span>
-            <h1>TCC API Hub</h1>
-            <p>Uma base de API para apoiar o acompanhamento de projetos de TCC e demonstrar deploy no Render.</p>
+            <span class="badge">API Laravel do TCC</span>
+            <h1>API App de Reciclagem</h1>
+            <p>Uma base de API para gerenciar pontos de coleta, materiais recicláveis e dados do aplicativo de conscientização ecológica.</p>
 
             <div class="grid">
                 <article class="card">
                     <h2>Problema</h2>
-                    <p>Organizar informações de orientação, etapas e acompanhamento de projetos de forma simples e acessível.</p>
+                    <p>Incentivar o descarte correto de materiais e facilitar a localização de pontos de coleta (como escolas e comércios parceiros).</p>
                 </article>
 
                 <article class="card">
                     <h2>Público-alvo</h2>
-                    <p>Estudantes, docentes orientadores e coordenação acadêmica.</p>
+                    <p>Cidadãos conscientes, catadores de materiais recicláveis e parceiros de coleta ecológica.</p>
                 </article>
             </div>
 
@@ -129,18 +129,19 @@
                 <h2>Funcionalidades principais</h2>
                 <ul>
                     <li>Consulta do status da API em produção.</li>
-                    <li>Listagem de projetos e orientadores.</li>
-                    <li>Acompanhamento de etapas e entregas do TCC.</li>
+                    <li>Listagem de pontos de coleta e materiais recicláveis.</li>
+                    <li>Padrão de cores para lixeiras de reciclagem.</li>
+                    <li>Perfil e localização do usuário.</li>
                 </ul>
             </article>
 
             <article class="card endpoint-list" style="margin-top: 1rem;">
                 <h2>Endpoints da API</h2>
                 <ul>
-                    <li><a href="/api/status" target="_blank" rel="noopener">/api/status</a></li>
-                    <li><a href="/api/projetos" target="_blank" rel="noopener">/api/projetos</a></li>
-                    <li><a href="/api/orientadores" target="_blank" rel="noopener">/api/orientadores</a></li>
-                    <li><a href="/api/entregas" target="_blank" rel="noopener">/api/entregas</a></li>
+                    <li><a href="/api/status" target="_blank" rel="noopener">/api/status</a> - Retorna o status de funcionamento da API.</li>
+                    <li><a href="/api/pontos-coleta" target="_blank" rel="noopener">/api/pontos-coleta</a> - Lista os locais de entrega e os materiais aceitos.</li>
+                    <li><a href="/api/cores-reciclagem" target="_blank" rel="noopener">/api/cores-reciclagem</a> - Retorna o padrão de cores da reciclagem.</li>
+                    <li><a href="/api/usuario" target="_blank" rel="noopener">/api/usuario</a> - Retorna os dados e a localização do usuário simulado.</li>
                 </ul>
             </article>
         </section>
